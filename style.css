@@ -1,0 +1,156 @@
+CSS CODE
+
+body {
+
+   font-family: 'Montserrat', sans-serif; /* Modern and versatile font */
+
+   text-align: center;
+
+   margin: 0;
+
+   padding: 0;
+
+   background-color: #EAE7DC; /* Soft, neutral background for a contemporary feel */
+
+}
+
+ 
+
+.first-container, .second-container, .third-container, .social-container {
+
+   border: none; /* Cleaner look without borders */
+
+   border-radius: 15px; /* Slightly more rounded corners for a modern touch */
+
+   padding: 30px;
+
+   margin: 30px auto;
+
+   max-width: 800px;
+
+   background-color: #FFFFFF;
+
+   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); /* Softer, more diffuse shadow */
+
+}
+
+ 
+
+.header {
+
+   font-size: 2.5em; /* Larger for more impact */
+
+   color: #3D405B; /* Deep, rich color for header */
+
+}
+
+ 
+
+.intro-text, .second-container h2, .second-container p, .third-container h2, .third-container p {
+
+   color: #3D405B; /* Consistency in text color */
+
+}
+
+ 
+
+.profile-image {
+
+   width: 150px;
+
+   height: 150px;
+
+   border-radius: 50%;
+
+   border: 4px solid #F2CC8F; /* Warmer border color */
+
+   margin: 20px;
+
+   object-fit: cover;
+
+}
+
+ 
+
+.first-button, .second-button {
+
+   padding: 15px 30px; /* More generous padding for a better touch experience */
+
+   background-color: #81B29A; /* Soft, inviting color */
+
+   color: white;
+
+   font-weight: bold; /* Make text stand out more */
+
+   border-radius: 8px; /* More pronounced rounded corners */
+
+   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+
+   transition: all 0.3s ease; /* Smoother transition */
+
+}
+
+ 
+
+.first-button:hover, .second-button:hover {
+
+   background-color: #F2CC8F; /* Warm hover color */
+
+   color: #3D405B;
+
+   transform: translateY(-3px); /* Elevate button on hover for a dynamic effect */
+
+   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.25); /* Enhance shadow on hover */
+
+}
+
+ 
+
+.highlight {
+
+   background-color: #81B29A; /* Harmonizing with button colors */
+
+   color: #FFFFFF; /* Clean contrast */
+
+   padding: 0.3em 0.6em; /* Slightly more padding */
+
+   border-radius: 5px;
+
+   transition: background-color 0.3s ease; /* Smooth transition for hover */
+
+}
+
+ 
+
+.highlight:hover {
+
+   background-color: #F2CC8F;
+
+}
+
+ 
+
+.social-container h3 {
+
+   font-size: 2.2em; /* Slightly larger for emphasis */
+
+}
+
+ 
+
+.social-icon img {
+
+   transition: transform 0.3s ease; /* Smooth transform effect */
+
+}
+
+ 
+
+.social-icon:hover img {
+
+   transform: scale(1.1); /* Grow icon on hover for interactivity */
+
+   filter: brightness(0.9); /* Slightly darken on hover for depth */
+
+}
+
